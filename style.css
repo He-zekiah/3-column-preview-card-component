@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+    height: 600px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.con1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 320px;
+    width: 650px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 30px;
+}
+
+.con__img {
+    width: 40px;
+}
+
+.head1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 30px;
+    /* font-weight: bold; */
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.text1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Big Shoulder Display' sans-serif; */
+}
+
+.click {
+    border-radius: 15px;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#butn1 {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+}
+
+#butn1:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+#butn2 {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+}
+
+#butn2:hover {
+background-color: transparent;
+color: white;
+}
+
+#butn3 {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border:2px solid white;
+}
+
+#butn3:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.con2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 320px;
+    width: 650px;
+    padding: 30px;
+}
+
+
+
+.con3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 320px;
+    width: 650px;
+    padding: 30px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
